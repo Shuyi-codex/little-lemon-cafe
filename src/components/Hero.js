@@ -1,5 +1,4 @@
 import Food from "../assets/restaurantfood.jpg";
-import BookTable from './BookingPage';
 import { Link } from 'react-router-dom';
 
 function Hero() {
@@ -18,10 +17,10 @@ function Hero() {
             restaurant, focused on traditional 
             recipes served with a modern twist.
         </p>
-        <button>Reserve a Table</button>
+        <Link to="/book-table" className="table-link">Reserve a Table</Link>
       </article>
       <article className="Hero-right">
-        <img src={Food} alt="An image showing " style={imageStyle}/>
+        <img src={Food} alt=" A server with a tray of food " style={imageStyle}/>
       </article>
     </section>
   );

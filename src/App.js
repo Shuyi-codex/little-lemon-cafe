@@ -8,16 +8,16 @@ import { Routes, Route } from 'react-router-dom';
 
 function App() {
   return (
-    <div>
+    <>
       <Nav />
-      
+
       <Routes>
         <Route path="/" element={<Homepage />} />
         <Route path="/book-table" element={<BookTable />} />
       </Routes>
 
       <Footer />
-    </div>
+    </>
   );
 }
 

@@ -34,7 +34,7 @@ li {
 
 .Hero {
   background: #495E57;
-  min-height: 50vh;
+  min-height: 60vh;
   display: grid;
   grid-template-columns: 50% 50%;
 }
@@ -58,16 +58,17 @@ li {
   font-size: 24px;
   width: 75%;
   margin-top: -20px;
+  margin-bottom: 30px;
 }
-.Hero-left button {
+.Hero-left .table-link {
   background-color: #F4CE14;
+  color: #000;
   padding: 15px 50px;
   text-align: center;
   border-radius: 16px;
   font-size: 18px;
+  font-weight: 500;
   border: 0;
-  /* margin-top: -px; */
-  margin-bottom: 20px;
   cursor: pointer;
 }
 .Hero .Hero-right {
