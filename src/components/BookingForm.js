@@ -1,5 +1,5 @@
 import { useState, useReducer} from "react";
-import { fetchAPI } from "./temp.js";
+import { fetchAPI, submitAPI } from "./temp.js";
 
 const availableTimes = ["Not selected", "13:00", "15:00", "17:00", "19:00", "21:00", "22:00"];
 
@@ -33,7 +33,8 @@ function BookingForm() {
 
   const handleSubmit = (e) => {
     e.preventDefault();
-    alert("Submitted");
+    // alert("Submitted");
+    submitAPI();
     clearForm();
   }
 
@@ -49,7 +50,8 @@ function BookingForm() {
 
   return (
     <form onSubmit={handleSubmit}>
-      <p>Fill the form</p>
+      <h3>Book Now</h3>
+      <p>Please select options to book </p>
 
       <div>
         <label htmlFor="date">Date</label>

@@ -1,15 +1,18 @@
 import BookingForm from "./BookingForm";
-import BookingSlot from "./BookingSlot";
-import { useReducer, useState } from "react";
 
 function BookTable() {
 
   return (
-    <div>
-      <h2>Booking Page</h2>
-      <p>The user arrives here after clicking on 
-        Reservations or Reserve a table link.</p>
-      <BookingForm />
+    <div className="BookPage">
+      <header className="BP-left">
+        <div className="Overlay">
+          <h2>Hi, Let's reserve a table</h2>
+        </div>
+      </header>
+      <div className="BP-right">
+        <BookingForm />
+      </div>
+      
     </div>
   );
 }

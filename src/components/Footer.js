@@ -6,7 +6,6 @@ function Footer() {
       <div className="Footer">
         <img src={logo} className="Logo" alt="Restaurant Logo" />
         <section className="Footer-nav">
-          <p> Goto...</p>
           <nav>
             <ul>
               <li><a href="/">Home</a></li>

@@ -1,4 +1,4 @@
-import Food from "../assets/restaurantfood.jpg";
+import Food from "../assets/restaurantfood.png";
 import { Link } from 'react-router-dom';
 
 function Hero() {

@@ -110,11 +110,131 @@ li {
   margin-left: 40px;
 }
 .Highlight-article article {
-  height: 400px;
+  height: 500px;
   width: 300px;
+  border-radius: 10px;
   background-color: whitesmoke;
 }
+.Article1 img, .Article2 img, .Article3 img {
+  max-height: 50%;
+  max-width: 100%;
+  object-fit: cover;
+}
+.Details {
+  color:#331f09;
+  padding: 0 20px;
+}
+.Details span {
+  margin-left: 120px;
+  color: #cf7b1a
+}
 
+/* Booking Page Style */
+
+.BookPage {
+  display: grid;
+  grid-template-columns: 50% 50%;
+}
+
+.BP-left {
+  display: block;
+  background-image: url(./assets/background.png);
+  background-color: whitesmoke;
+  height: 60vh;
+  background-position: right;
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding: 70px;
+  /* margin-left: 10px; */
+}
+.BP-left .Overlay {
+  height: 300px;
+  width: 400px;
+  position: absolute;
+  background-color: #495E57;
+  opacity: .9;
+  border-bottom-left-radius: 100%;
+  left: 235px;
+  top: 96px;
+}
+.BP-left .Overlay h2 {
+  color: #F4CE14;
+  font-size: 30px;
+  text-align: center;
+}
+
+.BP-right {
+  /* background-color: rgb(93, 119, 141); */
+  justify-content: center;
+  padding: 50px;
+}
+
+form {
+  width: 100%;
+  /* background-color: rgb(112, 96, 96); */
+}
+form > h3 {
+  font-size: 28px;
+  font-weight: normal;
+  text-align: left;
+}
+form > p:first-of-type {
+  margin-top: -20px;
+  color: #495E57;
+}
+form label {
+  display: block;
+}
+form input {
+  width: 200px;
+  height: 30px;
+  margin-bottom: 20px;
+}
+form select {
+  width: 205px;
+  height: 30px;
+  margin-bottom: 20px;
+}
+form select > option {
+  border-bottom: 5px dotted red;
+  font-size: 18px;
+  text-align: center;
+  background-color: #fefeff;
+  color: #495E57;
+}
+form button {
+  background-color: #F4CE14;
+  color: #000;
+  padding: 15px 50px;
+  text-align: center;
+  border-radius: 16px;
+  font-size: 18px;
+  font-weight: 500;
+  border: 0;
+  cursor: pointer;
+}
+form button:disabled {
+  background-color: #b4a86f;
+  color: #363535;
+  padding: 15px 50px;
+  text-align: center;
+  border-radius: 16px;
+  font-size: 18px;
+  font-weight: 500;
+  border: 0;
+  cursor: default;
+}
 .FormError {
-  color: #f00;
+  color: rgb(180, 17, 17);
+}
+
+
+.Footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  max-width: 100%;
+  max-height: 25vh;
+  background-color: #b8cfc8;
+  padding: 0 30px;
 }
