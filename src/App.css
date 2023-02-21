@@ -114,3 +114,7 @@ li {
   width: 300px;
   background-color: whitesmoke;
 }
+
+.FormError {
+  color: #f00;
+}

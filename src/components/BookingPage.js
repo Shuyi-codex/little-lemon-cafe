@@ -1,6 +1,9 @@
 import BookingForm from "./BookingForm";
+import BookingSlot from "./BookingSlot";
+import { useReducer, useState } from "react";
 
 function BookTable() {
+
   return (
     <div>
       <h2>Booking Page</h2>
