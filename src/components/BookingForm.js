@@ -33,7 +33,7 @@ function BookingForm() {
 
   const handleSubmit = (e) => {
     e.preventDefault();
-    // alert("Submitted");
+    alert("Table Booked");
     submitAPI();
     clearForm();
   }
